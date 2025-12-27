@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;  /*so that they will go to the next line when we decrease the size of the browser/when we have a smaller screen*/
+    justify-content: center;
+
+}
+.color-container{
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;/*brings them to the centre horizontally*/
+    align-items: center; /*brings them to the centre vertically*/
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(red, green, blue, 0.5);
+    border: solid black 2px;
+    border-radius: 10px;
+
+}
